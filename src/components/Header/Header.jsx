@@ -1,17 +1,20 @@
 import React from 'react';
 import { Outlet } from "react-router-dom";
-import { HeaderTitle, HeaderWrap } from './Header.styled';
+import { Container, HeaderWrap, Link } from './Header.styled';
 
 
 const Header = () => {
 
-
     return (
-        <HeaderWrap>
-            <HeaderTitle>Header</HeaderTitle>
-
-            <Outlet />
-        </HeaderWrap>
+        <Container>
+            <HeaderWrap>
+                <nav>
+                    <Link to="/">Home</Link>
+                    <Link to="/movies">Movies</Link>
+                </nav>
+            </HeaderWrap>
+                <Outlet/>
+        </Container>
     );
 };
 
