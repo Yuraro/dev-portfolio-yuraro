@@ -1,5 +1,6 @@
 import React from 'react';
 import { Outlet } from "react-router-dom";
+import { ProjectsTitle, ProjectsWrap } from './Projects.styled';
 
 
 const Projects = () => {
@@ -7,7 +8,7 @@ const Projects = () => {
 
     return (
         <ProjectsWrap>
-            <ProjectsTitle>Trending today</ProjectsTitle>
+            <ProjectsTitle>Projects</ProjectsTitle>
 
             <Outlet />
         </ProjectsWrap>

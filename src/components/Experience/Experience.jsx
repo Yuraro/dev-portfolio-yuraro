@@ -8,7 +8,7 @@ const Experience = () => {
 
     return (
         <ExperienceWrap>
-            <ExperienceTitle>Trending today</ExperienceTitle>
+            <ExperienceTitle>Experience</ExperienceTitle>
 
             <Outlet />
         </ExperienceWrap>

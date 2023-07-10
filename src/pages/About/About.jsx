@@ -1,5 +1,6 @@
 import React from 'react';
 import { Outlet } from "react-router-dom";
+import { AboutTitle, AboutWrap } from './About.styled';
 
 
 const About = () => {
@@ -7,7 +8,7 @@ const About = () => {
 
     return (
         <AboutWrap>
-            <AboutTitle>Trending today</AboutTitle>
+            <AboutTitle>About</AboutTitle>
 
             <Outlet />
         </AboutWrap>

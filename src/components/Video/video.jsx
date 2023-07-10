@@ -1,5 +1,6 @@
 import React from 'react';
 import { Outlet } from "react-router-dom";
+import { VideoTitle, VideoWrap } from './Video.styled';
 
 
 const Video = () => {
@@ -7,7 +8,7 @@ const Video = () => {
 
     return (
         <VideoWrap>
-            <VideoTitle>Trending today</ViTitle>
+            <VideoTitle>Video</VideoTitle>
 
             <Outlet />
         </VideoWrap>

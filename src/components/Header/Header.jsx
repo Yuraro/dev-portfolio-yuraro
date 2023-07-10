@@ -1,5 +1,6 @@
 import React from 'react';
 import { Outlet } from "react-router-dom";
+import { HeaderTitle, HeaderWrap } from './Header.styled';
 
 
 const Header = () => {
@@ -7,7 +8,7 @@ const Header = () => {
 
     return (
         <HeaderWrap>
-            <HeaderTitle>Trending today</HeaderTitle>
+            <HeaderTitle>Header</HeaderTitle>
 
             <Outlet />
         </HeaderWrap>

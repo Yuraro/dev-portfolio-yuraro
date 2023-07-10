@@ -1,5 +1,6 @@
 import React from 'react';
 import { Outlet } from "react-router-dom";
+import { HomeTitle, HomeWrap } from './Home.styled';
 
 
 const Home = () => {
@@ -7,7 +8,7 @@ const Home = () => {
 
     return (
         <HomeWrap>
-            <HomeTitle>Trending today</HomeTitle>
+            <HomeTitle>Home</HomeTitle>
 
             <Outlet />
         </HomeWrap>
