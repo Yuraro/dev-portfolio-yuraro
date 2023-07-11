@@ -46,12 +46,16 @@ export const Link = styled(NavLink)`
 `;
 
 export const ContactBtn = styled.button`
-    padding: 8px 16px;
-    border-radius: 4px;
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-    right: 0;
+    display: flex;
+        padding: 8px 16px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FA5255;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+    color: white;
 
     &:hover {
     color: white;
