@@ -17,8 +17,7 @@ export const HeaderWrap = styled.header`
     margin-right: 24px;
     margin-left: 24px;
     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
-    border-radius: 10px;
-    border-radius: 10px;
+    border-radius: 50px;
     background-color: white;
 `;
 
@@ -26,7 +25,7 @@ export const NavWrap = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 280px;
 `;
 
 export const Link = styled(NavLink)`
@@ -52,6 +51,7 @@ export const ContactBtn = styled.button`
     text-decoration: none;
     color: black;
     font-weight: 500;
+    right: 0;
 
     &:hover {
     color: white;

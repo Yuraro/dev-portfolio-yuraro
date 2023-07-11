@@ -12,6 +12,7 @@ return (
     <Container>
         <HeaderWrap>
             <NavWrap>
+                <p>YuraRo</p>
                 <nav>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
