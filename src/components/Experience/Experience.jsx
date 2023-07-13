@@ -1,17 +1,14 @@
 import React from 'react';
 import { Outlet } from "react-router-dom";
-import { ExperienceTitle, ExperienceWrap } from './Experience.styled';
-
+import css from './Experience.module.css';
 
 const Experience = () => {
 
-
     return (
-        <ExperienceWrap>
-            <ExperienceTitle>Experience</ExperienceTitle>
-
+        <div className={css.ex_wrap}>
+            <h2 className={css.ex_title}>Experience</h2>
             <Outlet />
-        </ExperienceWrap>
+        </div>
     );
 };
 

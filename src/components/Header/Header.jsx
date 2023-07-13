@@ -1,6 +1,7 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
-import { ContactBtn, Container, HeaderWrap, Link, NavWrap } from './Header.styled';
+import { Link, Outlet } from 'react-router-dom';
+import { ContactBtn, Container, HeaderWrap, NavWrap } from './Header.styled';
+
 
 const Header = () => {
     

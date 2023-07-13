@@ -3,7 +3,8 @@ import styled from '@emotion/styled';
 export const HomeWrap = styled.section`
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 720px;
+    wight: 1280px;
 `;
 
 export const HomeTitle = styled.h2`

@@ -1,11 +1,12 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import { HomeTitle, HomeWrap } from './Home.styled';
+import { HomeWrap } from './Home.styled';
 
 const Home = () => {
 return (
     <HomeWrap>
-        <HomeTitle>Home</HomeTitle>
+        <h1>Якась дуже довга як для заголовка заглушка, по-розміру типу щось схоже як ось ця!</h1>
+        <button> </button>
         <Outlet />
     </HomeWrap>
 );

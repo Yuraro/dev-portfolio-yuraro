@@ -1,13 +1,11 @@
-import styled from '@emotion/styled';
-
-export const FooterWrap = styled.div`
+.footer_main_wrap{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-`;
+}
 
-export const FooterTitle = styled.h2`
+.footer_main_title{
     font-size: 35px;
     font-weight: bold;
     color: #333333;
@@ -16,4 +14,4 @@ export const FooterTitle = styled.h2`
     background-color: #b8a4f4;
     border-radius: 10px;
     padding: 5px;
-`;
+}

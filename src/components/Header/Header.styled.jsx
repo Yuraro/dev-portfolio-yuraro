@@ -25,7 +25,7 @@ export const NavWrap = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 280px;
+    gap: 480px;
 `;
 
 export const Link = styled(NavLink)`
@@ -37,6 +37,7 @@ export const Link = styled(NavLink)`
 
     &:hover {
     color: white;
+    background-color: #d2b8f4;
     }
 
   &.active {
@@ -47,22 +48,16 @@ export const Link = styled(NavLink)`
 
 export const ContactBtn = styled.button`
     display: flex;
-        padding: 8px 16px;
+    padding: 14px 48px;
     width: 50px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    border-radius: 16px;
-    background: #FA5255;
-    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 40px;
+    background: #d2b8f4;
     color: white;
 
     &:hover {
     color: white;
     }
-
-  &.active {
-    color: white;
-    background-color: #d2b8f4;
-  }
 `;
