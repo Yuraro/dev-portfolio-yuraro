@@ -1,11 +1,12 @@
-import styled from '@emotion/styled';
-import { NavLink } from 'react-router-dom';
+.container {
+    top: 10px;
+    width: 1200px;
+    padding: 0 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-export const Container = styled.div`
-    top: 10px; 
-`;
-
-export const HeaderWrap = styled.header`
+.headerWrap {
     position: sticky;
     top: 10px;
     left: 0;
@@ -19,34 +20,35 @@ export const HeaderWrap = styled.header`
     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
     border-radius: 50px;
     background-color: white;
-`;
+}
 
-export const NavWrap = styled.div`
+.navWrap {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 480px;
-`;
+    gap: 420px;
+}
 
-export const Link = styled(NavLink)`
+.navLink {
     padding: 8px 16px;
     border-radius: 4px;
     text-decoration: none;
     color: black;
     font-weight: 500;
+}
 
-    &:hover {
+.linksNav {
+    display: flex;
+    gap: 30px;
+}
+
+.navLink:hover,
+.activeLink {
     color: white;
     background-color: #d2b8f4;
-    }
+}
 
-  &.active {
-    color: white;
-    background-color: #d2b8f4;
-  }
-`;
-
-export const ContactBtn = styled.button`
+.contactBtn {
     display: flex;
     padding: 14px 48px;
     width: 50px;
@@ -56,8 +58,8 @@ export const ContactBtn = styled.button`
     border-radius: 40px;
     background: #d2b8f4;
     color: white;
+}
 
-    &:hover {
+.contactBtn:hover {
     color: white;
-    }
-`;
+}

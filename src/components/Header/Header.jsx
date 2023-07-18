@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
-import { ContactBtn, Container, HeaderWrap, NavWrap } from './Header.styled';
+import { NavLink, Outlet } from 'react-router-dom';
+import css from './Header.module.css';
 
 
 const Header = () => {
@@ -10,19 +10,19 @@ const Header = () => {
     };
 
 return (
-    <Container>
-        <HeaderWrap>
-            <NavWrap>
-                <p>YuraRo</p>
-                <nav>
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-                </nav>
-            <ContactBtn onClick={handleContactClick}>Contact</ContactBtn>
-            </NavWrap>
-        </HeaderWrap>
-        <Outlet />
-    </Container>
+    <div className={css.container}>
+    <header className={css.headerWrap}>
+        <div className={css.navWrap}>
+        <p>YuraRo</p>
+        <nav className={css.linksNav}>
+            <NavLink exact to="/" activeClassName={css.activeLink}>Home</NavLink>
+            <NavLink to="/about" activeClassName={css.activeLink}>About</NavLink>
+        </nav>
+        <button className={css.contactBtn} onClick={handleContactClick}>Contact</button>
+        </div>
+    </header>
+    <Outlet />
+    </div>
 );
 };
 
