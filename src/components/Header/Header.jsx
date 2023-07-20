@@ -13,7 +13,7 @@ return (
     <div className={css.container}>
     <header className={css.headerWrap}>
         <div className={css.navWrap}>
-        <p>YuraRo</p>
+        <p className={css.my_name}>YuraRo</p>
         <nav className={css.linksNav}>
             <NavLink exact to="/" activeClassName={css.active}>Home</NavLink>
             <NavLink to="/about" activeClassName={css.active}>About</NavLink>
