@@ -1,5 +1,4 @@
 import React from 'react';
-import { Outlet } from "react-router-dom";
 import css from './Footer.module.css';
 
 
