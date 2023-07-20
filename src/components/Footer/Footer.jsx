@@ -6,9 +6,9 @@ const Footer = () => {
 
 
     return (
-        <div className={css.footer_main_wrap}>
+        <footer className={css.footer_main_wrap}>
             <h2 className={css.footer_main_title}>Footer</h2>
-        </div>
+        </footer>
     );
 };
 
