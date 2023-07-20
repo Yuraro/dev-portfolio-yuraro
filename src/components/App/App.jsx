@@ -1,14 +1,13 @@
 
-/* import { ToastContainer } from 'react-toastify'; */
 import { Route, Routes } from "react-router-dom";
 
 import Experience from 'components/Experience/Experience';
 import Footer from "components/Footer/Footer";
-import Header from "components/Header/Header.jsx";
-import Projects from "components/Projects/Projects.jsx";
-import Video from "components/Video/Vide.jsx";
-import Home from "pages/Home/Home.jsx";
-import About from "pages/About/About.jsx";
+import Header from "components/Header/Header";
+import Projects from "components/Projects/Projects";
+import Video from "components/Video/Video";
+import Home from "pages/Home/Home";
+import About from "pages/About/About";
 
 
 
