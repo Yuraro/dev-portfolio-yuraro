@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from "react-router-dom";
-import css from './Video.module.css';
+import css from './Presentation.module.css';
 
 const Video = () => {
     return (
