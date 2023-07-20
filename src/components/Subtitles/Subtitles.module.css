@@ -1,0 +1,38 @@
+
+.subtitles_container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(244, 244, 212);
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+}
+
+.subtitle_block {
+    flex: 1;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+
+.subtitle_title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #76b5c5;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.subtitles_description {
+    font-size: 16px;
+    color: black;
+    opacity: 0.8;
+}
+
+.subtitle_block:hover {
+    transform: scale(1.05);
+}
