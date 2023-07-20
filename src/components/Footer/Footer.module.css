@@ -18,6 +18,7 @@
     margin-bottom: 20px;
     font-size: 24px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
 }
 
 .footerWrap {
