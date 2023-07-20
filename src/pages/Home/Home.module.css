@@ -5,15 +5,19 @@
   width: 1280px;
 }
 
+.title_wrap {
+    width: 530px;
+    margin-top: 40px;
+};
+
 .homeTitle {
-  font-size: 35px;
+  font-size: 22px;
   font-weight: bold;
   color: #333333;
   margin-bottom: 16px;
   text-align: left;
   border-radius: 10px;
   padding: 5px;
-  margin-top: 40px;
 }
 
 .homeButton {
@@ -24,7 +28,7 @@
   font-size: 16px;
   border-radius: 30px;
   text-transform: uppercase;
-  color: #76b5c5;;
+  color: #76b5c5;
   background-color: white;
   cursor: pointer;
   text-decoration: none;
@@ -33,6 +37,7 @@
 }
 
 .homeButton:hover {
-  background-color: #5ca1b3;
+  color: white;
+  background-color: black;
   transform: scale(1.05);
 }

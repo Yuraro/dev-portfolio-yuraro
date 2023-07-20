@@ -5,8 +5,10 @@ const Home = () => {
     return (
         <>
         <div className={css.homeWrap}>
-            <h1 className={css.homeTitle}>Discover Your Ideal Choice: Learn More Within 2 Minutes, and It Might Just Be the Sign You've Been Waiting For!</h1>
-            <button className={css.homeButton}>Натисни мене!</button>
+            <div className={css.title_wrap}>
+                <h1 className={css.homeTitle}>Discover Your Ideal Choice: Learn More Within 2 Minutes, and It Might Just Be the Sign You've Been Waiting For!</h1>
+                <button className={css.homeButton}>Start!</button>
+            </div>
         </div>
         </>
     );
