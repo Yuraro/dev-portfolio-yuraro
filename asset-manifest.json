@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/dev-portfolio-yuraro/static/css/main.7acaea2f.css",
-    "main.js": "/dev-portfolio-yuraro/static/js/main.07d3183d.js",
+    "main.css": "/dev-portfolio-yuraro/static/css/main.9e16e85e.css",
+    "main.js": "/dev-portfolio-yuraro/static/js/main.12502277.js",
+    "static/media/Brain.png": "/dev-portfolio-yuraro/static/media/Brain.175510fa53591ec31ed9.png",
     "index.html": "/dev-portfolio-yuraro/index.html",
-    "main.7acaea2f.css.map": "/dev-portfolio-yuraro/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/dev-portfolio-yuraro/static/js/main.07d3183d.js.map"
+    "main.9e16e85e.css.map": "/dev-portfolio-yuraro/static/css/main.9e16e85e.css.map",
+    "main.12502277.js.map": "/dev-portfolio-yuraro/static/js/main.12502277.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.9e16e85e.css",
+    "static/js/main.12502277.js"
   ]
 }
