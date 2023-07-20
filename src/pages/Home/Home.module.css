@@ -6,8 +6,8 @@
 
 .title_wrap {
     margin-left: 24px;
-    width: 624px;
-    margin-top: 50px;
+    width: 660px;
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,7 +15,7 @@
 
 .homeTitle {
   border-radius: 10px;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   color: #fff;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
@@ -32,11 +32,11 @@
 
 .homeButton {
   margin-top: 40px;
-  padding: 14px 32px;
+  padding: 19px 37px;
   width: fit-content;
   display: inline-block;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
   border-radius: 30px;
   text-transform: uppercase;
   color: #76b5c5;
@@ -54,8 +54,8 @@
 }
 
 .img_wrap {
-  margin-top: 50px;
-  margin-left: 220px;
+  margin-top: 70px;
+  margin-left: 140px;
 }
 
 .image_braine{

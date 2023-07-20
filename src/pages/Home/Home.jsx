@@ -13,8 +13,8 @@ const Home = () => {
             </div>
             <div className={css.img_wrap}>
                 <img src={BraineImage}
-                    alt="Braine Logo" width={655 / 3}
-                    height={730 / 3}
+                    alt="Braine Logo" width={655 / 2}
+                    height={730 / 2}
                     className={css.image_braine} />
             </div>
         </div>
