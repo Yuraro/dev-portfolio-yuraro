@@ -1,13 +1,11 @@
-import styled from '@emotion/styled';
-
-export const HomeWrap = styled.section`
+.projectsWrap {
     display: flex;
     flex-direction: column;
-    height: 720px;
-    wight: 1280px;
-`;
+    align-items: center;
+    justify-content: center;
+}
 
-export const HomeTitle = styled.h2`
+.projectsTitle {
     font-size: 35px;
     font-weight: bold;
     color: #333333;
@@ -15,4 +13,4 @@ export const HomeTitle = styled.h2`
     text-align: left;
     border-radius: 10px;
     padding: 5px;
-`;
+}

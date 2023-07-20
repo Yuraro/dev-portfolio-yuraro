@@ -1,17 +1,13 @@
 import React from 'react';
 import { Outlet } from "react-router-dom";
-import { ProjectsTitle, ProjectsWrap } from './Projects.styled';
-
+import css from './Projects.module.css';
 
 const Projects = () => {
-
-
     return (
-        <ProjectsWrap>
-            <ProjectsTitle>Projects</ProjectsTitle>
-
+        <div className={css.projectsWrap}>
+            <h2 className={css.projectsTitle}>Projects</h2>
             <Outlet />
-        </ProjectsWrap>
+        </div>
     );
 };
 

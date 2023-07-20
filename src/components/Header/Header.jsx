@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import css from './Header.module.css';
 
@@ -15,13 +15,17 @@ return (
         <div className={css.navWrap}>
         <p>YuraRo</p>
         <nav className={css.linksNav}>
-            <NavLink exact to="/" activeClassName={css.activeLink}>Home</NavLink>
-            <NavLink to="/about" activeClassName={css.activeLink}>About</NavLink>
+            <NavLink exact to="/" activeClassName={css.active}>Home</NavLink>
+            <NavLink to="/about" activeClassName={css.active}>About</NavLink>
         </nav>
         <button className={css.contactBtn} onClick={handleContactClick}>Contact</button>
         </div>
     </header>
-    <Outlet />
+    <main>
+        <Suspense fallback={<div>Loading...</div>}>
+            <Outlet />
+        </Suspense>
+    </main>
     </div>
 );
 };
