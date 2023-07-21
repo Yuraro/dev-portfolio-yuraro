@@ -10,7 +10,7 @@
 }
 
 .title_question {
-  font-size: 35px;
+  font-size: 36px;
   font-weight: bold;
   color: black;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
@@ -18,7 +18,6 @@
 
 .options {
   display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 10px;
 }
@@ -29,8 +28,16 @@ button {
   border: none;
   background-color: #76b5c5;
   color: #fff;
-  font-size: 16px;
+  font-size: 21px;
   cursor: pointer;
   border-radius: 30px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.successMessage,
+.failureMessage {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
 }

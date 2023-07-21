@@ -1,16 +1,35 @@
 .aboutWrap {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     height: auto;
     width: 1200px;
 }
 
-.aboutTitle {
-    font-size: 35px;
+.navigation_btn_wrap {
+    display: flex;
+    gap: 10px;
+}
+
+.navigation_btn {
+    padding: 14px 32px;
+    width: fit-content;
+    display: inline-block;
     font-weight: bold;
-    color: #333333;
-    margin-bottom: 16px;
-    text-align: left;
-    border-radius: 10px;
-    padding: 5px;
+    font-size: 20px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: #76b5c5;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.navigation_btn:hover {
+    color: white;
+    background-color: black;
+    transform: scale(1.05);
 }
