@@ -1,11 +1,12 @@
 import React from 'react';
 import css from './About.module.css';
+import Test from 'components/Test/Test';
 
 const About = () => {
     return (
         <>
         <div className={css.aboutWrap}>
-        <h2 className={css.aboutTitle}>About</h2>
+        <Test></Test>
         </div>
         </>
     );

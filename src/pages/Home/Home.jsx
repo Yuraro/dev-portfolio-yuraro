@@ -2,6 +2,7 @@ import React from 'react';
 import css from './Home.module.css';
 import BraineImage from '../../images/Brain.png'; 
 import Subtitles from 'components/Subtitles/Subtitles';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -9,7 +10,9 @@ const Home = () => {
         <div className={css.homeWrap}>
             <div className={css.title_wrap}>
                 <h1 className={css.homeTitle}>Discover Your Ideal Choice: Learn More Within <span className={css.timeHighlight}>2 Minutes</span>, and It Might Just Be the Sign You've Been Waiting For!</h1>
-                <button className={css.homeButton}>Start!</button>
+                <Link to="/about" className={css.homeButton}>
+                Start!
+                </Link>
             </div>
             <div className={css.img_wrap}>
                 <img src={BraineImage}

@@ -1,8 +1,8 @@
 .aboutWrap {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    height: auto;
+    width: 1200px;
 }
 
 .aboutTitle {
