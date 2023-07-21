@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { Suspense, useState } from 'react';
 import css from './About.module.css';
 import Test from 'components/Test/Test';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 const About = () => {
     const [answers, setAnswers] = useState([]);
@@ -22,6 +22,9 @@ const About = () => {
             </Link>
         </div>
         )}
+        <Suspense fallback={<div>Loading...</div>}>
+            <Outlet />
+        </Suspense>
     </div>
 );
 };

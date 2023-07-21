@@ -28,3 +28,36 @@
         transform: translateX(0);
     }
 }
+
+.wrap_complited {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.title_complited {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(251, 251, 208);
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.text_complited {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(251, 251, 208);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.test_failed {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(199, 23, 23);
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.633);
+    text-align: center;
+}

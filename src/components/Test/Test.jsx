@@ -36,12 +36,12 @@ return (
         ) : (
             <>
             {answers.filter((answer) => answer === 'Yes').length === 3 ? (
-            <div>
-                <h2>Test Completed!</h2>
-                <p>Congratulations, you are halfway there! Now you have successfully gained access to the three files below! Keep up the good work and continue with your progress! </p>
+            <div className={css.wrap_complited}>
+                <h2 className={css.title_complited}>Test Completed!</h2>
+                <p className={css.text_complited}>Congratulations, you are halfway there!<br /> Now you have successfully gained access to the three files below! </p>
             </div>
             ) : (
-                <h2>Test not completed. Unfortunately, we are not a match!</h2>
+                <h2 className={css.test_failed}>Test not completed.<br/>Unfortunately, we are not a match!</h2>
             )}
             </>
         )}
