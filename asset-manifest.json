@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dev-portfolio-yuraro/static/css/main.240f07b8.css",
-    "main.js": "/dev-portfolio-yuraro/static/js/main.163d0a33.js",
+    "main.css": "/dev-portfolio-yuraro/static/css/main.08d38499.css",
+    "main.js": "/dev-portfolio-yuraro/static/js/main.837120db.js",
     "static/media/Brain.png": "/dev-portfolio-yuraro/static/media/Brain.175510fa53591ec31ed9.png",
     "index.html": "/dev-portfolio-yuraro/index.html",
     "static/media/github.svg": "/dev-portfolio-yuraro/static/media/github.1846be6b6389fc21d780b4c99a445ad7.svg",
     "static/media/whatsapp.svg": "/dev-portfolio-yuraro/static/media/whatsapp.8744a6d61cff7b13d142e352d22e9a1b.svg",
     "static/media/linkedin.svg": "/dev-portfolio-yuraro/static/media/linkedin.ef483a713882f05344c83fc47ce19c86.svg",
-    "main.240f07b8.css.map": "/dev-portfolio-yuraro/static/css/main.240f07b8.css.map",
-    "main.163d0a33.js.map": "/dev-portfolio-yuraro/static/js/main.163d0a33.js.map"
+    "main.08d38499.css.map": "/dev-portfolio-yuraro/static/css/main.08d38499.css.map",
+    "main.837120db.js.map": "/dev-portfolio-yuraro/static/js/main.837120db.js.map"
   },
   "entrypoints": [
-    "static/css/main.240f07b8.css",
-    "static/js/main.163d0a33.js"
+    "static/css/main.08d38499.css",
+    "static/js/main.837120db.js"
   ]
 }
