@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Question from '../Question/Question';
 import css from './Test.module.css';
+import arrow from '../../images/arrow.png';
 
 const Test = ({ answers, setAnswers }) => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -39,6 +40,7 @@ return (
             <div className={css.wrap_complited}>
                 <h2 className={css.title_complited}>Test Completed!</h2>
                 <p className={css.text_complited}>Congratulations, you are halfway there!<br /> Now you have successfully gained access to the three files below! </p>
+                <img className={css.arrow} src={arrow} alt="Arrow" width="44" height="44" />
             </div>
             ) : (
                 <h2 className={css.test_failed}>Test not completed.<br/>Unfortunately, we are not a match!</h2>

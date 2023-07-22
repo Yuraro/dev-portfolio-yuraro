@@ -1,16 +1,86 @@
-.projectsWrap {
+.projects_wrap {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    background-color: #f4f4f4;
+    padding: 16px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 10px;
 }
 
-.projectsTitle {
-    font-size: 35px;
+.projects_wrap:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img_web {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img_web:hover {
+    transform: scale(1.05);
+}
+
+.info_wrap {
+    margin-left: 16px;
+}
+
+.info_title{
+    font-size: 24px;
     font-weight: bold;
     color: #333333;
-    margin-bottom: 16px;
-    text-align: left;
-    border-radius: 10px;
-    padding: 5px;
+    margin-bottom: 8px;
+    margin-right: 5px;
+}
+
+.info_year {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.info_github {
+    font-size: 16px;
+    color: #b8a4f4;
+}
+
+.info_description {
+    font-size: 18px;
+    color: #666666;
+    margin-top: 16px;
+    line-height: 1.4;
+}
+
+.info_tech_title {
+    font-size: 18px;
+    color: #333333;
+    margin-top: 16px;
+}
+
+.info_tech_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.info_tech {
+    font-size: 16px;
+    color: #333333;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background-color: #b8a4f4;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.info_tech_item {
+    font-size: 18px;
+    color: #333333;
+    margin-top: 16px;
 }

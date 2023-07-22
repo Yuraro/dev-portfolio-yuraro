@@ -51,6 +51,14 @@
     color: rgb(251, 251, 208);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     text-align: center;
+    margin-bottom: 25px;
+}
+
+.arrow {
+    position: relative;
+    top: 0;
+
+    animation: moveUpDown 1.5s infinite;
 }
 
 .test_failed {
@@ -60,4 +68,19 @@
     margin-bottom: 10px;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.633);
     text-align: center;
+}
+
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
