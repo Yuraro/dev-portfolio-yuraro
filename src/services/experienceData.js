@@ -1,6 +1,6 @@
 export const experienceData = [
     {
-    title: 'Co-founder and Marketing Manager',
+    title: 'Co-founder and Operations Manager',
     date: '2019-2021',
     company: 'Daisy Hookah Delivery',
     description: 'Former Co-founder and Operations Manager of the hookah supply service in several cities of Ukraine. Achieved a 10-fold increase in orders within the first and 12th months of operation. Established a competitive market presence in the industry. Expanded operations to multiple cities, reaching a wider customer base. My responsibilities included: advertising, logistics, dealing with suppliers, assuring quality, monitoring of delivery, and scaling of the business.',
