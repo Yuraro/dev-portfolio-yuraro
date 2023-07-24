@@ -1,6 +1,5 @@
-import IceCream from '../src/images/IceCream.jpeg';
-import Cinemania from '../src/images/Cinemania.jpeg';
-
+import IceCream from '../images/IceCream.jpeg';
+import Cinemania from '../images/Cinemania.jpeg';
 
 const projectsData = [
     {
