@@ -4,7 +4,7 @@ import projectsData from '../../services';
 
 const Projects = () => {
     return (
-    <div>
+    <div className={css.project_container}>
         {projectsData.map((project, index) => (
         <div className={css.projects_wrap} key={index}>
             <a href={project.websiteLink} target="_blank" rel="noopener noreferrer">

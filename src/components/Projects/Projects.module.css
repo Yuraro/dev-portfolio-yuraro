@@ -1,3 +1,7 @@
+.project_container {
+    width: 1000px;
+}
+
 .projects_wrap {
     display: flex;
     align-items: center;
