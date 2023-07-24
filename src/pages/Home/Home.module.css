@@ -66,16 +66,14 @@
 
 .image_braine {
   width: 327.5px;
-  /* 655 / 2 */
   height: 365px;
-  /* 730 / 2 */
   border-radius: 10px;
 }
 
 .circle_wrapper {
   position: absolute;
-  width: 32px;
-  height: 32px;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
   animation: circleAnimation 4s linear infinite;
 }
