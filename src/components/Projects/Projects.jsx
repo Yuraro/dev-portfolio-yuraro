@@ -19,7 +19,7 @@ const Projects = () => {
                 {project.description}
             </h3>
             <h3 className={css.info_tech_title}>
-                Technologies used:
+                Used technologies:
             </h3>
             <ul className={css.info_tech_list}>
                 {project.technologies.map((tech, index) => (
