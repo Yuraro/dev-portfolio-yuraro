@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dev-portfolio-yuraro/static/css/main.d38f1417.css",
-    "main.js": "/dev-portfolio-yuraro/static/js/main.3827fecf.js",
+    "main.js": "/dev-portfolio-yuraro/static/js/main.f9b45184.js",
     "static/media/Cinemania.jpeg": "/dev-portfolio-yuraro/static/media/Cinemania.27a83d9dcf264e1e13c9.jpeg",
     "static/media/IceCream.jpeg": "/dev-portfolio-yuraro/static/media/IceCream.a8325262092506c49816.jpeg",
     "static/media/Brain.png": "/dev-portfolio-yuraro/static/media/Brain.175510fa53591ec31ed9.png",
@@ -14,10 +14,10 @@
     "static/media/linkedin.svg": "/dev-portfolio-yuraro/static/media/linkedin.ef483a713882f05344c83fc47ce19c86.svg",
     "static/media/css.svg": "/dev-portfolio-yuraro/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "main.d38f1417.css.map": "/dev-portfolio-yuraro/static/css/main.d38f1417.css.map",
-    "main.3827fecf.js.map": "/dev-portfolio-yuraro/static/js/main.3827fecf.js.map"
+    "main.f9b45184.js.map": "/dev-portfolio-yuraro/static/js/main.f9b45184.js.map"
   },
   "entrypoints": [
     "static/css/main.d38f1417.css",
-    "static/js/main.3827fecf.js"
+    "static/js/main.f9b45184.js"
   ]
 }
