@@ -10,9 +10,9 @@
 }
 
 .title_question {
-  font-size: 36px;
+  font-size: 41px;
   font-weight: bold;
-  color: black;
+  color: rgb(245, 245, 208);
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -27,8 +27,8 @@ button {
   padding: 16px 26px;
   border: none;
   background-color: #76b5c5;
-  color: #fff;
-  font-size: 21px;
+  color: rgb(245, 245, 208);
+  font-size: 26px;
   cursor: pointer;
   border-radius: 30px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);

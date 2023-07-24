@@ -8,7 +8,6 @@ const Footer = () => {
 return (
     <footer className={css.footer}>
         <div className={css.container}>
-            <h2 className={css.footerTitle}>Contacts</h2>
 
         <div className={css.footerWrap}>
             <div className={css.footerWrapTitle}>
@@ -45,7 +44,7 @@ return (
         </div>
 
         <div className={css.footerDowntext}>
-            <p className={css.footerDowntextFirst}>© 2023 - YuraRo.</p>
+            <p className={css.footerDowntextFirst}>© 2023 - YuraRo</p>
             <p className={css.footerDowntextSecond}>Get in touch! Let's create something amazing together.</p>
         </div>
     </footer>

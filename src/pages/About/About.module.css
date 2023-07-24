@@ -7,6 +7,23 @@
     width: 1200px;
 }
 
+.title_about {
+    font-size: 35px;
+    font-weight: bold;
+    color:rgb(245, 245, 208);;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 6, 8, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin-top: 40px;
+    border: 2px solid rgb(245, 245, 208);
+}
+
+
 .navigation_btn_wrap {
     display: flex;
     gap: 10px;

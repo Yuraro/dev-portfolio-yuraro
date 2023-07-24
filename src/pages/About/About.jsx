@@ -8,6 +8,7 @@ const About = () => {
 
     return (
     <div className={css.aboutWrap}>
+        <h1 className={css.title_about}>Questionnaire of compatibility</h1>
         <Test answers={answers} setAnswers={setAnswers} />
         {!answers.includes('No') && answers.length === 3 && (
         <div className={css.navigation_btn_wrap}>

@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { NavLink, Outlet } from 'react-router-dom';
+import { Link, NavLink, Outlet } from 'react-router-dom';
 import css from './Header.module.css';
 
 
@@ -13,7 +13,7 @@ return (
     <div className={css.container}>
     <header className={css.headerWrap}>
         <div className={css.navWrap}>
-        <p className={css.my_name}>YuraRo</p>
+            <NavLink exact to="/" className={css.my_name}>YuraRo</NavLink>
         <nav className={css.linksNav}>
             <NavLink exact to="/" activeClassName={css.active}>Home</NavLink>
             <NavLink to="/about" activeClassName={css.active}>About</NavLink>
