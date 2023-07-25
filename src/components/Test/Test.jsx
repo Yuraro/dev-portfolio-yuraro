@@ -7,7 +7,7 @@ const Test = ({ answers, setAnswers }) => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const questions = [
     {
-        question: 'Question 1?',
+        question: 'Are you seeking an individual capable of learning to deeply understand the product, its specifics, and intricacies of its operation, and being highly involved in the goals and development of the company?',
         options: ['Yes', 'No'],
     },
     {
