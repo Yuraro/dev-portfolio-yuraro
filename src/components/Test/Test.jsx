@@ -11,11 +11,11 @@ const Test = ({ answers, setAnswers }) => {
         options: ['Yes', 'No'],
     },
     {
-        question: 'Question 2?',
+        question: 'Are you looking for a person who can actively contribute to the formation of resilient, cohesive, and constantly improving teams?',
         options: ['Yes', 'No'],
     },
     {
-        question: 'Question 3?',
+        question: 'Do you prioritize finding someone who exhibits a structured and predictable work approach in various domains?',
         options: ['Yes', 'No'],
     },
     ];
@@ -43,7 +43,7 @@ return (
                 <img className={css.arrow} src={arrow} alt="Arrow" width="44" height="44" />
             </div>
             ) : (
-                <h2 className={css.test_failed}>Test not completed.<br/>Unfortunately, we are not a match!</h2>
+                <h2 className={css.test_failed}>Test completed.<br/>Unfortunately, we are not a match!</h2>
             )}
             </>
         )}

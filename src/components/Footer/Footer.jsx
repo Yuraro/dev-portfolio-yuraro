@@ -15,19 +15,17 @@ return (
             <div className={css.footerWrapSoc}>
                 <ul className={css.footerSoc}>
                     <li className={css.footerList}>
-                        <a className={css.footerLink} href="https://github.com/">
+                        <a className={css.footerLink} href="https://github.com/Yuraro">
                     <img src={github} alt="GitHub" width="34" height="34" />
                         </a>
                     </li>
                     <li className={css.footerList}>
-                        <a className={css.footerLink} href="https://web.telegram.org/z/">
+                        <a className={css.footerLink} href="https://www.linkedin.com/in/yuriy-romanyuk-010889235/">
                     <img src={linkedin} alt="LinkedIn" width="34" height="34" />
                         </a>
                     </li>
                     <li className={css.footerList}>
-                        <a className={css.footerLink} href="https://www.facebook.com/">
                     <img src={whatsapp} alt="WhatsApp" width="34" height="34" />
-                        </a>
                     </li>
                 </ul>
             </div>
