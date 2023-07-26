@@ -21,7 +21,7 @@ return (
                     <Link to="/" className={css.my_name}>YuraRo</Link>
                     <nav className={css.linksNav}>
                         <Link to="/" className={currentPath === '/' ? css.active : ''}>Home</Link>
-                        <Link to="/about" className={currentPath === '/about' ? css.active : ''}>About</Link>
+                        <Link to="/about" className={currentPath.includes('/about') ? css.active : ''}>About</Link>
                     </nav>
                     <button className={css.contactBtn} onClick={handleContactClick}>Contact</button>
                 </div>
