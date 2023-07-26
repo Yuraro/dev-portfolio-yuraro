@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dev-portfolio-yuraro/static/css/main.0ea9b4a3.css",
-    "main.js": "/dev-portfolio-yuraro/static/js/main.c11b3b59.js",
+    "main.css": "/dev-portfolio-yuraro/static/css/main.4614f177.css",
+    "main.js": "/dev-portfolio-yuraro/static/js/main.b1efd91d.js",
     "static/media/Cinemania.jpeg": "/dev-portfolio-yuraro/static/media/Cinemania.27a83d9dcf264e1e13c9.jpeg",
     "static/media/IceCream.jpeg": "/dev-portfolio-yuraro/static/media/IceCream.a8325262092506c49816.jpeg",
     "static/media/Brain.png": "/dev-portfolio-yuraro/static/media/Brain.175510fa53591ec31ed9.png",
@@ -13,11 +13,11 @@
     "static/media/whatsapp.svg": "/dev-portfolio-yuraro/static/media/whatsapp.8744a6d61cff7b13d142e352d22e9a1b.svg",
     "static/media/linkedin.svg": "/dev-portfolio-yuraro/static/media/linkedin.ef483a713882f05344c83fc47ce19c86.svg",
     "static/media/css.svg": "/dev-portfolio-yuraro/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
-    "main.0ea9b4a3.css.map": "/dev-portfolio-yuraro/static/css/main.0ea9b4a3.css.map",
-    "main.c11b3b59.js.map": "/dev-portfolio-yuraro/static/js/main.c11b3b59.js.map"
+    "main.4614f177.css.map": "/dev-portfolio-yuraro/static/css/main.4614f177.css.map",
+    "main.b1efd91d.js.map": "/dev-portfolio-yuraro/static/js/main.b1efd91d.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ea9b4a3.css",
-    "static/js/main.c11b3b59.js"
+    "static/css/main.4614f177.css",
+    "static/js/main.b1efd91d.js"
   ]
 }
