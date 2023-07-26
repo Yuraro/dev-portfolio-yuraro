@@ -1,5 +1,3 @@
-// Home.js
-
 import React from 'react';
 import css from './Home.module.css';
 import BraineImage from '../../images/Brain.png';
