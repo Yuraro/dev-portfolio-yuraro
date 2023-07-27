@@ -1,10 +1,12 @@
 import React, { Suspense, useState } from 'react';
 import css from './About.module.css';
 import Test from 'components/Test/Test';
-import { Link, Outlet } from 'react-router-dom';
+import { Link, Outlet, useLocation } from 'react-router-dom';
+import classNames from 'classnames';
 
 const About = () => {
     const [answers, setAnswers] = useState([]);
+    const location = useLocation();
 
     return (
         <div className={css.aboutWrap}>
@@ -14,22 +16,25 @@ const About = () => {
                 <div className={css.navigation_btn_wrap}>
                     <Link
                         to="/about/presentation"
-                        className={css.navigation_btn}
-                        activeClassName={css.active}
+                        className={classNames(css.navigation_btn, {
+                            [css.active]: location.pathname === '/about/presentation',
+                        })}
                     >
                         Presentation
                     </Link>
                     <Link
                         to="/about/projects"
-                        className={css.navigation_btn}
-                        activeClassName={css.active}
+                        className={classNames(css.navigation_btn, {
+                            [css.active]: location.pathname === '/about/projects',
+                        })}
                     >
                         Projects
                     </Link>
                     <Link
                         to="/about/work_experience"
-                        className={css.navigation_btn}
-                        activeClassName={css.active}
+                        className={classNames(css.navigation_btn, {
+                            [css.active]: location.pathname === '/about/work_experience',
+                        })}
                     >
                         Work Experience
                     </Link>
@@ -43,6 +48,7 @@ const About = () => {
 };
 
 export default About;
+
 
 
 

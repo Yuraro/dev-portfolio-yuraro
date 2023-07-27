@@ -51,8 +51,9 @@
     transform: scale(1.05);
 }
 
-.navigation_btn:active {
+.navigation_btn.active {
     color: white;
-    background-color: black;
+
     transform: scale(1.05);
+    background-color: rgb(91, 3, 3);
 }
