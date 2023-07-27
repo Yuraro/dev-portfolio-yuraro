@@ -24,6 +24,13 @@ const handleSelectOption = (option) => {
     setAnswers((prev) => [...prev, option]);
     setCurrentQuestion((prev) => prev + 1);
 };
+    
+const handleTestCompletion = () => {
+        const completedAnswersCount = answers.filter((answer) => answer === 'Yes').length;
+        if (completedAnswersCount === 3) {
+            localStorage.setItem('testResult', 'completed');
+        }
+    };
 
 return (
     <div className={css.test}>
@@ -36,6 +43,7 @@ return (
             />
         ) : (
             <>
+            {handleTestCompletion()}
             {answers.filter((answer) => answer === 'Yes').length === 3 ? (
             <div className={css.wrap_complited}>
                 <h2 className={css.title_complited}>Test Completed!</h2>
