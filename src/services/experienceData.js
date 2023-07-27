@@ -19,7 +19,18 @@ export const experienceData = [
         'Established effective communication with a significant new company partner',
         'Implemented new methods for creating work schedules, benefiting over 200 employees',
     ],
-},
+    },
+    {
+    title: 'Headhunter',
+    date: '2021 - 2022',
+    company: '"Work Space system" in partnership with "A-Profi Group s.r.o" ',
+    description: "Owner of the employment service company.My responsibilities included selecting vacancies for clients and processing of their legal documents.",
+    achievements: [
+        'Reached the point of constant increase in customer traffic.',
+        '230 success rate for closed deals',
+        'Attracted a new category of people to use the platform wedeveloped to simplify the application process and as result, overall positive feedback increased in comparison to competitors .',
+    ],
+    },
 ];
 
 export default experienceData;
