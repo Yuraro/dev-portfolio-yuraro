@@ -1,5 +1,6 @@
 import IceCream from '../images/IceCream.jpeg';
 import Cinemania from '../images/Cinemania.jpeg';
+import Portfolio from '../images/Portfolio.jpeg';
 
 const projectsData = [
     {
@@ -19,7 +20,16 @@ const projectsData = [
     description: 'Collaboratively designed and developed a visually appealing café website, showcasing an array of product offerings, capturing the cafés ambiance, and featuring location information. Implemented interactive elements, seamless navigation, and a unique brand identity, resulting in an enhanced user experience.',
     technologies: ['JS', 'SASS', 'HTML', 'Parcel'],
     image: IceCream,
-}
+    },
+    {
+    title: 'My Portfolio',
+    year: '2023',
+    githubLink: 'https://github.com/Yuraro/dev-portfolio-yuraro',
+    websiteLink: 'http://localhost:3000/dev-portfolio-yuraro',
+    description: 'Explore My Work - Dive into a compilation of JavaScript, CSS, HTML, and React projects that embody my commitment to blending creativity and technology for an unforgettable user experience.',
+    technologies: ['JS', 'CSS', 'HTML', 'React'],
+    image: Portfolio,
+    }
 ];
 
 export default projectsData;
