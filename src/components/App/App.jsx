@@ -1,13 +1,16 @@
+import { lazy } from "react";
 
 import { Route, Routes } from "react-router-dom";
 
-import Experience from 'components/Experience/Experience';
 import Footer from "components/Footer/Footer";
 import Header from "components/Header/Header";
-import Projects from "components/Projects/Projects";
-import Presentation from "components/Presentation/Presentation";
-import Home from "pages/Home/Home";
-import About from "pages/About/About";
+
+const Projects = lazy(() => import('../Projects/Projects'));
+const Presentation = lazy(() => import('../Presentation/Presentation'));
+const Experience = lazy(() => import('../Experience/Experience'));
+
+const Home = lazy(() => import('../../pages/Home/Home'));
+const About = lazy(() => import('../../pages/About/About'));
 
 
 
