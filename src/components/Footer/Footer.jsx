@@ -34,8 +34,11 @@ return (
                 <p className={css.footerTel}>
                 Contact me: 
                 <a href="tel:+17789564251" className={css.footerTelNumber}>
-                +1 (778) 956 4251
+                    +1 (778) 956 4251
                 </a>
+                <a href="mailto:romaniuk.yurij@gmail.com" className={css.footerTelNumber}>
+                    romaniuk.yurij@gmail.com
+                </a> 
             </p>
             </div>
             </div>

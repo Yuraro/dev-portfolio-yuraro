@@ -14,7 +14,6 @@
 
 .footerWrap {
     padding-left: 50px;
-    padding-right: 50px;
     display: flex;
     align-items: baseline;
 }
@@ -67,6 +66,7 @@
 
 .footer_tel_wrap {
     display: flex;
+    margin-left: auto;
 }
 
 .footerTel {
@@ -75,6 +75,7 @@
     display: flex;
     width: 380px;
     font-weight: bold;
+    flex-direction: column;
 }
 
 .footerTelNumber {
