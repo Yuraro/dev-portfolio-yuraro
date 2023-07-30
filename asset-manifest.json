@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dev-portfolio-yuraro/static/css/main.2518e981.css",
-    "main.js": "/dev-portfolio-yuraro/static/js/main.2b6cf194.js",
+    "main.css": "/dev-portfolio-yuraro/static/css/main.c190e5d8.css",
+    "main.js": "/dev-portfolio-yuraro/static/js/main.2ef6f4f3.js",
     "static/css/972.4d6754d9.chunk.css": "/dev-portfolio-yuraro/static/css/972.4d6754d9.chunk.css",
     "static/js/972.a8585555.chunk.js": "/dev-portfolio-yuraro/static/js/972.a8585555.chunk.js",
     "static/css/829.f7d46302.chunk.css": "/dev-portfolio-yuraro/static/css/829.f7d46302.chunk.css",
@@ -25,8 +25,8 @@
     "static/media/whatsapp.svg": "/dev-portfolio-yuraro/static/media/whatsapp.8744a6d61cff7b13d142e352d22e9a1b.svg",
     "static/media/linkedin.svg": "/dev-portfolio-yuraro/static/media/linkedin.ef483a713882f05344c83fc47ce19c86.svg",
     "static/media/css.svg": "/dev-portfolio-yuraro/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
-    "main.2518e981.css.map": "/dev-portfolio-yuraro/static/css/main.2518e981.css.map",
-    "main.2b6cf194.js.map": "/dev-portfolio-yuraro/static/js/main.2b6cf194.js.map",
+    "main.c190e5d8.css.map": "/dev-portfolio-yuraro/static/css/main.c190e5d8.css.map",
+    "main.2ef6f4f3.js.map": "/dev-portfolio-yuraro/static/js/main.2ef6f4f3.js.map",
     "972.4d6754d9.chunk.css.map": "/dev-portfolio-yuraro/static/css/972.4d6754d9.chunk.css.map",
     "972.a8585555.chunk.js.map": "/dev-portfolio-yuraro/static/js/972.a8585555.chunk.js.map",
     "829.f7d46302.chunk.css.map": "/dev-portfolio-yuraro/static/css/829.f7d46302.chunk.css.map",
@@ -40,7 +40,7 @@
     "858.edf9ab55.chunk.js.map": "/dev-portfolio-yuraro/static/js/858.edf9ab55.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2518e981.css",
-    "static/js/main.2b6cf194.js"
+    "static/css/main.c190e5d8.css",
+    "static/js/main.2ef6f4f3.js"
   ]
 }
