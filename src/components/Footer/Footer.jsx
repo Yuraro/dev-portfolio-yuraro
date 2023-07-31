@@ -20,7 +20,7 @@ return (
                         </a>
                     </li>
                     <li className={css.footerList}>
-                        <a className={css.footerLink} href="https://www.linkedin.com/in/yuriy-romanyuk-010889235/">
+                        <a className={css.footerLink} href="https://www.linkedin.com/in/yuriy-romanyuk-yuraro/">
                     <img src={linkedin} alt="LinkedIn" width="34" height="34" />
                         </a>
                     </li>
