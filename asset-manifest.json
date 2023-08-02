@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dev-portfolio-yuraro/static/css/main.c190e5d8.css",
-    "main.js": "/dev-portfolio-yuraro/static/js/main.5f178545.js",
+    "main.js": "/dev-portfolio-yuraro/static/js/main.2ff5af76.js",
     "static/css/972.4d6754d9.chunk.css": "/dev-portfolio-yuraro/static/css/972.4d6754d9.chunk.css",
     "static/js/972.a8585555.chunk.js": "/dev-portfolio-yuraro/static/js/972.a8585555.chunk.js",
     "static/css/829.f7d46302.chunk.css": "/dev-portfolio-yuraro/static/css/829.f7d46302.chunk.css",
     "static/js/829.9abe6ad4.chunk.js": "/dev-portfolio-yuraro/static/js/829.9abe6ad4.chunk.js",
-    "static/css/360.7d6b6ef0.chunk.css": "/dev-portfolio-yuraro/static/css/360.7d6b6ef0.chunk.css",
-    "static/js/360.2e082702.chunk.js": "/dev-portfolio-yuraro/static/js/360.2e082702.chunk.js",
+    "static/css/360.cfd042df.chunk.css": "/dev-portfolio-yuraro/static/css/360.cfd042df.chunk.css",
+    "static/js/360.0ddfdc5c.chunk.js": "/dev-portfolio-yuraro/static/js/360.0ddfdc5c.chunk.js",
     "static/css/526.1dacde43.chunk.css": "/dev-portfolio-yuraro/static/css/526.1dacde43.chunk.css",
     "static/js/526.8b0e3c9b.chunk.js": "/dev-portfolio-yuraro/static/js/526.8b0e3c9b.chunk.js",
     "static/css/891.14875b7b.chunk.css": "/dev-portfolio-yuraro/static/css/891.14875b7b.chunk.css",
@@ -26,13 +26,13 @@
     "static/media/linkedin.svg": "/dev-portfolio-yuraro/static/media/linkedin.ef483a713882f05344c83fc47ce19c86.svg",
     "static/media/css.svg": "/dev-portfolio-yuraro/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "main.c190e5d8.css.map": "/dev-portfolio-yuraro/static/css/main.c190e5d8.css.map",
-    "main.5f178545.js.map": "/dev-portfolio-yuraro/static/js/main.5f178545.js.map",
+    "main.2ff5af76.js.map": "/dev-portfolio-yuraro/static/js/main.2ff5af76.js.map",
     "972.4d6754d9.chunk.css.map": "/dev-portfolio-yuraro/static/css/972.4d6754d9.chunk.css.map",
     "972.a8585555.chunk.js.map": "/dev-portfolio-yuraro/static/js/972.a8585555.chunk.js.map",
     "829.f7d46302.chunk.css.map": "/dev-portfolio-yuraro/static/css/829.f7d46302.chunk.css.map",
     "829.9abe6ad4.chunk.js.map": "/dev-portfolio-yuraro/static/js/829.9abe6ad4.chunk.js.map",
-    "360.7d6b6ef0.chunk.css.map": "/dev-portfolio-yuraro/static/css/360.7d6b6ef0.chunk.css.map",
-    "360.2e082702.chunk.js.map": "/dev-portfolio-yuraro/static/js/360.2e082702.chunk.js.map",
+    "360.cfd042df.chunk.css.map": "/dev-portfolio-yuraro/static/css/360.cfd042df.chunk.css.map",
+    "360.0ddfdc5c.chunk.js.map": "/dev-portfolio-yuraro/static/js/360.0ddfdc5c.chunk.js.map",
     "526.1dacde43.chunk.css.map": "/dev-portfolio-yuraro/static/css/526.1dacde43.chunk.css.map",
     "526.8b0e3c9b.chunk.js.map": "/dev-portfolio-yuraro/static/js/526.8b0e3c9b.chunk.js.map",
     "891.14875b7b.chunk.css.map": "/dev-portfolio-yuraro/static/css/891.14875b7b.chunk.css.map",
@@ -41,6 +41,6 @@
   },
   "entrypoints": [
     "static/css/main.c190e5d8.css",
-    "static/js/main.5f178545.js"
+    "static/js/main.2ff5af76.js"
   ]
 }
