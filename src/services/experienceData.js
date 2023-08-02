@@ -8,7 +8,8 @@ export const experienceData = [
         'Achieved a 10-fold increase in orders within the first and 12th months of operation',
         'Established a competitive market presence in the industry',
         'Expanded operations to multiple cities, reaching a wider customer base',
-    ],
+        ],
+    pdfLink: 'https://drive.google.com/file/d/1OnKS423ZzsaEZ1TRCbjlVGfr-yDARGgu/view?usp=drive_link',
     },
     {
     title: 'Coordinator',
@@ -18,7 +19,8 @@ export const experienceData = [
     achievements: [
         'Established effective communication with a significant new company partner',
         'Implemented new methods for creating work schedules, benefiting over 200 employees',
-    ],
+        ],
+    pdfLink: 'https://drive.google.com/file/d/1OnKS423ZzsaEZ1TRCbjlVGfr-yDARGgu/view?usp=drive_link',
     },
     {
     title: 'Headhunter',
@@ -29,7 +31,8 @@ export const experienceData = [
         'Reached the point of constant increase in customer traffic.',
         '230 success rate for closed deals',
         'Attracted a new category of people to use the platform wedeveloped to simplify the application process and as result, overall positive feedback increased in comparison to competitors .',
-    ],
+        ],
+    pdfLink: 'https://drive.google.com/file/d/1OnKS423ZzsaEZ1TRCbjlVGfr-yDARGgu/view?usp=drive_link',
     },
 ];
 
