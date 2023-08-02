@@ -8,18 +8,10 @@ const About = () => {
     const [answers, setAnswers] = useState([]);
     const location = useLocation();
 
-    const handleTestCompletion = () => {
-        const completedAnswersCount = answers.filter((answer) => answer === 'Yes').length;
-        if (completedAnswersCount === 3) {
-            localStorage.setItem('testResult', 'completed');
-        }
-    };
-
     return (
         <div className={css.aboutWrap}>
             <h1 className={css.title_about}>Questionnaire of compatibility</h1>
             <Test answers={answers} setAnswers={setAnswers} />
-            {handleTestCompletion()}
             {!answers.includes('No') && answers.length === 3 && (
                 <div className={css.navigation_btn_wrap}>
                     <Link
@@ -56,3 +48,4 @@ const About = () => {
 };
 
 export default About;
+
