@@ -18,6 +18,7 @@ const Experience = () => {
                 <li key={idx} className={css.ex_achievement}>{achievement}</li>
                 ))}
             </ul>
+                <a href={experience.pdfLink} className={css.ex_pdf_link}>Download PDF</a>
             </div>
         ))}
         </div>
