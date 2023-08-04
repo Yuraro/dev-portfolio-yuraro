@@ -9,7 +9,7 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <BrowserRouter basename="/dev-portfolio-yuraro">
+    <BrowserRouter basename="/">
       <App />
     </BrowserRouter>
   </StrictMode>
