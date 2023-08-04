@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Question from '../Question/Question';
 import css from './Test.module.css';
 import arrow from '../../images/arrow.png';
@@ -23,23 +23,7 @@ const Test = ({ answers, setAnswers }) => {
     const handleSelectOption = (option) => {
     setAnswers((prev) => [...prev, option]);
     setCurrentQuestion((prev) => prev + 1);
-    localStorage.setItem('answers', JSON.stringify([...answers, option])); 
 };
-
-
-    useEffect(() => {
-    const handleTestCompletion = () => {
-        const savedAnswers = JSON.parse(localStorage.getItem('answers'));
-        if (savedAnswers) {
-            const completedAnswersCount = savedAnswers.filter((answer) => answer === 'Yes').length;
-            if (completedAnswersCount === 3) {
-                localStorage.setItem('testResult', 'completed');
-            }
-        }
-    };
-
-    handleTestCompletion();
-}, []);
 
 
     return (
@@ -70,6 +54,3 @@ const Test = ({ answers, setAnswers }) => {
 };
 
 export default Test;
-
-
-

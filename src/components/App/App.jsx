@@ -4,13 +4,12 @@ import { Route, Routes } from "react-router-dom";
 
 import Footer from "components/Footer/Footer";
 import Header from "components/Header/Header";
+import Home from "../../pages/Home/Home";
+import About from "../../pages/About/About";
 
 const Projects = lazy(() => import('../Projects/Projects'));
 const Presentation = lazy(() => import('../Presentation/Presentation'));
 const Experience = lazy(() => import('../Experience/Experience'));
-
-const Home = lazy(() => import('../../pages/Home/Home'));
-const About = lazy(() => import('../../pages/About/About'));
 
 
 
