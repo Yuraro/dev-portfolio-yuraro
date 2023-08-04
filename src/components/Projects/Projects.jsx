@@ -14,7 +14,12 @@ const Projects = () => {
             <h2 className={css.info_title}>
                 {project.title} <span className={css.info_year}>({project.year})</span>
             </h2>
-            <a className={css.info_github} href={project.githubLink}>GitHub</a>
+                    <a
+                    className={css.info_github}
+                    href={project.githubLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub</a>
             <h3 className={css.info_description}>
                 {project.description}
             </h3>

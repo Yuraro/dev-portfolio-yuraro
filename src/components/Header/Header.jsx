@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Suspense } from 'react';
+import React, { useState, useEffect} from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import css from './Header.module.css';
 
@@ -27,9 +27,7 @@ return (
                 </div>
             </header>
     <main>
-        <Suspense fallback={<div>Loading...</div>}>
             <Outlet />
-        </Suspense>
     </main>
     </div>
 );
