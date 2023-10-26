@@ -1,7 +1,7 @@
 export const experienceData = [
     {
     title: 'Co-founder and Operations Manager',
-    date: '2019-2021',
+    date: 'Sep 2019 - May 2021',
     company: 'Daisy Hookah Delivery',
     description: 'Former Co-founder and Operations Manager of the hookah supply service in several cities of Ukraine. Achieved a 10-fold increase in orders within the first and 12th months of operation. Established a competitive market presence in the industry. Expanded operations to multiple cities, reaching a wider customer base. My responsibilities included: advertising, logistics, dealing with suppliers, assuring quality, monitoring of delivery, and scaling of the business.',
     achievements: [
@@ -9,30 +9,30 @@ export const experienceData = [
         'Established a competitive market presence in the industry',
         'Expanded operations to multiple cities, reaching a wider customer base',
         ],
-    pdfLink: 'https://drive.google.com/file/d/1jMTNbmOx_W9zfoLIRrUfh_ZJ4UzcZkGz/view?usp=drive_link',
+    pdfLink: 'https://drive.google.com/file/d/1v9MbrVzRVPXERUv3gdE2iOhvTwbgE3Ep/view?usp=share_link',
     },
     {
     title: 'Coordinator',
-    date: '2021-2022',
+    date: 'Sep 2021 - Jan 2022',
     company: 'A-Profi Group s.r.o',
     description: "My responsibilities included coordinating employees' actions: conclusion of the contract, employment, clarifying the details of working with the company's management where people work, job consultation, and providing information for workers and managers. Achievements: Established effective communication with a significant new company partner. Implemented new methods for creating work schedules, benefiting over 200 employees.",
     achievements: [
         'Established effective communication with a significant new company partner',
         'Implemented new methods for creating work schedules, benefiting over 200 employees',
         ],
-    pdfLink: 'https://drive.google.com/file/d/1jMTNbmOx_W9zfoLIRrUfh_ZJ4UzcZkGz/view?usp=drive_link',
+    pdfLink: 'https://drive.google.com/file/d/1v9MbrVzRVPXERUv3gdE2iOhvTwbgE3Ep/view?usp=share_link',
     },
     {
-    title: 'Headhunter',
-    date: '2021 - 2022',
-    company: '"Work Space system" in partnership with "A-Profi Group s.r.o" ',
-    description: "Owner of the employment service company.My responsibilities included selecting vacancies for clients and processing of their legal documents.",
+    title: 'Junior Front-End Developer',
+    date: 'August, 2023 - Present',
+    company: 'CrispFlow ',
+    description: "In my current role, I actively contribute to the creation of visually appealing and user-friendly e-commerce sites, working in collaboration with a team of experienced developers.",
     achievements: [
-        'Reached the point of constant increase in customer traffic.',
-        '230 success rate for closed deals',
-        'Attracted a new category of people to use the platform wedeveloped to simplify the application process and as result, overall positive feedback increased in comparison to competitors .',
+        'Proficiently working on front-end development tasks, which include HTML, CSS, JavaScript and React.js.',
+        'Assisting in the integration of content management systems and e-commerce platforms.',
+        'Staying up-to-date on industry trends and adopting best practices in front-end development to deliver cutting-edge solutions.',
         ],
-    pdfLink: 'https://drive.google.com/file/d/1jMTNbmOx_W9zfoLIRrUfh_ZJ4UzcZkGz/view?usp=drive_link',
+    pdfLink: 'https://drive.google.com/file/d/1v9MbrVzRVPXERUv3gdE2iOhvTwbgE3Ep/view?usp=share_link',
     },
 ];
 
