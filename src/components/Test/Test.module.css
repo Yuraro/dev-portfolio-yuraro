@@ -3,15 +3,15 @@
     justify-content: center;
     width: 800px;
     height: 600px;
-    background-color: #76b5c5;
+    background-color: #4CAF50;
     margin-top: 20px;
 }
 
 .test_container {
     width: 90%;
     height: 90%;
-    border: 2px solid rgb(245, 245, 208);
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    border: 2px solid whitesmoke;
+    box-shadow: 0px 5px 15px whitesmoke;
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -40,7 +40,7 @@
 .title_complited {
     font-size: 30px;
     font-weight: bold;
-    color: rgb(251, 251, 208);
+    color: whitesmoke;
     margin-bottom: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
@@ -48,7 +48,7 @@
 .text_complited {
     font-size: 20px;
     font-weight: bold;
-    color: rgb(251, 251, 208);
+    color: whitesmoke;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     text-align: center;
     margin-bottom: 25px;

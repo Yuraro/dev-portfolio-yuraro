@@ -19,13 +19,13 @@
     margin-left: 24px;
     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
     border-radius: 50px;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .my_name{
     font-size: 18px;
     font-weight: bold;
-    color: #76b5c5;
+    color: #4CAF50;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     text-decoration: none;
 }
@@ -47,13 +47,13 @@
     padding: 8px 16px;
     border-radius: 30px;
     text-decoration: none;
-    color: #76b5c5;
+    color: #4CAF50;
     font-weight: 500;
 }
 
 .linksNav a.active {
-    color: white;
-    background-color: #76b5c5;
+    color: whitesmoke;
+    background-color: #4CAF50;
     border-radius: 30px;
     font-weight: bold;
 }
@@ -71,8 +71,8 @@
     font-weight: bold;
     text-transform: uppercase;
     border-radius: 30px;
-    background-color: #76b5c5;
-    color: white;
+    background-color: #4CAF50;
+    color: whitesmoke;
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
@@ -80,6 +80,6 @@
 }
 
 .contactBtn:hover {
-    background-color: #5ca1b3;
+    background-color: #4CAF50;
     transform: scale(1.05);
 }

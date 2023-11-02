@@ -1,6 +1,6 @@
 
 .footer {
-    background-color: #ffffff;
+    background-color: whitesmoke;
     color: rgb(0, 0, 0);
     margin-top: 45px;
 }
@@ -80,7 +80,7 @@
 
 .footerTelNumber {
     color: rgb(0, 0, 0);
-    text-decoration: none;
+    text-decoration:underline;
     font-weight: bold;
     margin-left: 5px;
 }
@@ -94,8 +94,12 @@
 .footerDowntextFirst {
     margin-bottom: 5px;
     font-size: 14px;
+    color: #4CAF50;
+    text-shadow: 1px 1px 3px #4CAF50;
 }
 
 .footerDowntextSecond {
     font-size: 14px;
+        color: #4CAF50;
+            text-shadow: 1px 1px 3px #4CAF50;
 }
