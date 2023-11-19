@@ -9,7 +9,7 @@ export const experienceData = [
         'Established a competitive market presence in the industry',
         'Expanded operations to multiple cities, reaching a wider customer base',
         ],
-    pdfLink: 'https://drive.google.com/file/d/1v9MbrVzRVPXERUv3gdE2iOhvTwbgE3Ep/view?usp=share_link',
+    pdfLink: 'https://drive.google.com/file/d/1f2kN02DPevdWDt0FU_Q8P70923es0MA1/view?usp=drive_link',
     },
     {
     title: 'Coordinator',
@@ -20,7 +20,7 @@ export const experienceData = [
         'Established effective communication with a significant new company partner',
         'Implemented new methods for creating work schedules, benefiting over 200 employees',
         ],
-    pdfLink: 'https://drive.google.com/file/d/1v9MbrVzRVPXERUv3gdE2iOhvTwbgE3Ep/view?usp=share_link',
+    pdfLink: 'https://drive.google.com/file/d/1f2kN02DPevdWDt0FU_Q8P70923es0MA1/view?usp=drive_link',
     },
     {
     title: 'Junior Front-End Developer',
@@ -32,7 +32,22 @@ export const experienceData = [
         'Assisting in the integration of content management systems and e-commerce platforms.',
         'Staying up-to-date on industry trends and adopting best practices in front-end development to deliver cutting-edge solutions.',
         ],
-    pdfLink: 'https://drive.google.com/file/d/1v9MbrVzRVPXERUv3gdE2iOhvTwbgE3Ep/view?usp=share_link',
+    pdfLink: 'https://drive.google.com/file/d/1f2kN02DPevdWDt0FU_Q8P70923es0MA1/view?usp=drive_link',
+    },
+    {
+    title: 'Cook',
+    date: 'January, 2023 - Present',
+    company: 'Co-op, Angry Otter Tap & Forno',
+    description: "Sourcing and ordering ingredients,ensuring precise food preparation, kitchen organization, implementing quality control measures, fostering a collaborative team environment, adhering to health and safety regulations",
+    achievements: [
+        'Effective Teamwork',
+        'Adaptation to Local Market',
+        'Adaptation to the language environment',
+        'Work Under Pressure',
+        'Problem Solving',
+        'Independence: Capability to work independently and take initiative.'
+        ],
+    pdfLink: 'https://drive.google.com/file/d/1f2kN02DPevdWDt0FU_Q8P70923es0MA1/view?usp=drive_link',
     },
 ];
 
