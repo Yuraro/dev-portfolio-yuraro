@@ -10,17 +10,17 @@
 .title_about {
     font-size: 35px;
     font-weight: bold;
-    color:whitesmoke;
+    color: var(--secondary-color);
     text-align: center;
     text-transform: uppercase;
     padding: 5px 10px;
     border-radius: 30px;
-    box-shadow: 0 0 10px whitesmoke;
+    box-shadow: 0 0 10px var(--secondary-color);
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     line-height: 1.5;
     margin-top: 40px;
-    border: 2px solid whitesmoke;
+    border: 2px solid var(--secondary-color);
 }
 
 
@@ -37,8 +37,8 @@
     font-size: 20px;
     border-radius: 30px;
     text-transform: uppercase;
-    color: #4CAF50;
-    background-color: whitesmoke;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
     cursor: pointer;
     text-decoration: none;
     border: none;
@@ -46,13 +46,13 @@
 }
 
 .navigation_btn:hover {
-    color: whitesmoke;
+    color: var(--secondary-color);
     background-color: black;
     transform: scale(1.05);
 }
 
 .navigation_btn.active {
-    color: whitesmoke;
+    color: var(--secondary-color);
 
     transform: scale(1.05);
     background-color: rgb(91, 3, 3);

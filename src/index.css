@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
-  background-color: #4CAF50;
+  background-color: var(--primary-color);
   background-image: linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
   background-size: 40px 40px;
 }
@@ -22,4 +22,9 @@ html {
   margin: 0;
 }
 
+:root {
+  --primary-color: #1a1a1a;       /* Темний фон або загальний фон */
+  --secondary-color: #f0f0f0;     /* Світлий колір для тексту та елементів на темному фоні */
+  --third-color: #d71919;         /* Червоний колір для акцентів або виділених елементів */
+}
 

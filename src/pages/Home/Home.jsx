@@ -13,7 +13,7 @@ return (
     <>
         <div className={css.homeWrap}>
         <div className={css.title_wrap}>
-            <h1 className={css.homeTitle}>Discover Your Ideal Choice: Learn More Within <span className={css.timeHighlight}>2 Minutes</span>, and It Might Just Be the Sign You've Been Waiting For!</h1>
+            <h1 className={css.homeTitle}>Discover Your Ideal Choice: Learn More Within <span className={css.timeHighlight}>5 Minutes</span>, and It Might Just Be the Sign You've Been Waiting For!</h1>
             <Link to="/about" className={css.homeButton}>
             Start!
             </Link>
