@@ -77,7 +77,7 @@
 }
 
 .ex_pdf_link:hover {
-    background-color: #135215;
+    background-color: var(--third-color);
 }
 
 .ex_pdf_link:focus {
